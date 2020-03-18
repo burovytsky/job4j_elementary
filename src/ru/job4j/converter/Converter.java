@@ -16,12 +16,12 @@ public class Converter {
         int expectedEur = 40;
         int out1 = rubleToEuro(in);
         boolean passed1 = expectedEur == out1;
-        System.out.println("2800 rub are 40 eur. Test result : "+ passed1);
+        System.out.println("2800 rub are 40 eur. Test result : " + passed1);
 
         int in2 = 2800;
         int expectedDol = 46;
         int out2 = rubleToDollar(in2);
         boolean passed2 = expectedDol == out2;
-        System.out.println("2800 rub are 46 dollars. Test result : "+ passed2);
+        System.out.println("2800 rub are 46 dollars. Test result : " + passed2);
     }
 }
