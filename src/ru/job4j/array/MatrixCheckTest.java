@@ -63,6 +63,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, 0);
         assertThat(result, is(false));
     }
+
     @Test
     public void whenHasMonoVertical() {
         char[][] input = {
@@ -84,6 +85,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, 1);
         assertThat(result, is(false));
     }
+
     @Test
     public void whenDiagonal() {
         char[][] input = {

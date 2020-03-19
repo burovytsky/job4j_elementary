@@ -8,7 +8,6 @@ public class SortSelected {
             int temp = data[i];
             data[i] = data[index];
             data[index] = temp;
-
         }
         return data;
     }

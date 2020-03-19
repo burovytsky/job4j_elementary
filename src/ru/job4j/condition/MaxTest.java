@@ -16,7 +16,6 @@ public class MaxTest {
     public void whenMaxIs3() {
         int result = Max.max(1, 3);
         assertThat(result, is(3));
-
     }
 
     @Test
@@ -24,5 +23,4 @@ public class MaxTest {
         int result = Max.max(1, 1);
         assertThat(result, is(1));
     }
-
 }
